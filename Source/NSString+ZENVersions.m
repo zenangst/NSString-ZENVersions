@@ -4,13 +4,7 @@
 
 - (BOOL)zen_newerThan:(NSString *)versionString
 {
-    BOOL result = NO;
-
-    if ([self compare:versionString options:NSNumericSearch] == NSOrderedDescending) {
-        result = YES;
-    }
-
-    return result;
+    return ([self compare:versionString options:NSNumericSearch] == NSOrderedDescending);
 }
 
 - (BOOL)zen_olderThan:(NSString *)versionString
