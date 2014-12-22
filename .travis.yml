@@ -1,2 +1,2 @@
 language: objective-c
-script: xctool -workspace NSString-ZENVersions.xcodeproj -scheme NSString-ZENVersionsTests -sdk iphonesimulator build test
+script: xctool -project NSString-ZENVersions.xcodeproj -scheme NSString-ZENVersionsTests -sdk iphonesimulator build test
