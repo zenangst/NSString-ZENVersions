@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NSString-ZENVersions"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
   s.summary = "Helping you find inner peace when comparing version numbers."
   s.description = <<-DESC
                    * Helping you find inner peace when comparing version numbers.
