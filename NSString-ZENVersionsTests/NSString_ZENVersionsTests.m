@@ -39,4 +39,9 @@
     XCTAssertFalse([@"1.0" zen_olderThan:@"1.0"]);
 }
 
+- (void)testEmptyVersionString
+{
+    XCTAssertFalse([@"1.0" zen_olderThan:@"1.0"]);
+}
+
 @end
