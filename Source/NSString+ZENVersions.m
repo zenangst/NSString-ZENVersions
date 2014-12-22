@@ -9,15 +9,7 @@
 
 - (BOOL)zen_olderThan:(NSString *)versionString
 {
-    BOOL result;
-
-    if ([self isEqualToString:versionString]) {
-        result = NO;
-    } else {
-        result = (![self zen_newerThan:versionString]);
-    }
-
-    return result;
+    return (![self isEqualToString:versionString]) ? (![self zen_newerThan:versionString]) : NO ;
 }
 
 @end
