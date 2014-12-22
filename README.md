@@ -1,4 +1,5 @@
 ##NSString-ZENVersions
+[![Build Status](https://img.shields.io/travis/zenangst/NSString-ZENVersions.svg?style=flat)](https://travis-ci.org/zenangst/NSString-ZENVersions)
 
 Helping you find inner peace when comparing version numbers.
 
