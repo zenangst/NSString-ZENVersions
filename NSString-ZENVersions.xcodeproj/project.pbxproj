@@ -19,6 +19,7 @@
 		BD0A90ED1A4743A100F1C2DD /* NSString+ZENVersions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZENVersions.m"; sourceTree = "<group>"; };
 		BD0A90EF1A47494F00F1C2DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BD52F9C01A4749E2001E7BDC /* NSString-ZENVersions.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "NSString-ZENVersions.podspec"; sourceTree = "<group>"; };
+		BDA8E5BD1A4802470095CDAA /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 		BDB44D281A47421300B6C77B = {
 			isa = PBXGroup;
 			children = (
+				BDA8E5BD1A4802470095CDAA /* .travis.yml */,
 				BD0A90EF1A47494F00F1C2DD /* README.md */,
 				BD52F9C01A4749E2001E7BDC /* NSString-ZENVersions.podspec */,
 				BD0A90EB1A47439000F1C2DD /* Source */,
