@@ -1,0 +1,5 @@
+[
+    "-project",       "NSString-ZENVersions.xcodeproj",
+    "-scheme",        "NSString-ZENVersionsTests",
+    "-configuration", "Debug"
+]
